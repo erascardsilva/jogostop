@@ -1,0 +1,95 @@
+<!--Projeto de jogo Stop desenvolvido por Erasmo Cardoso-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<!--link para css-->
+    <link rel="stylesheet" href="./assecs/css/stilo.css">
+
+
+    <title>Stop</title>
+</head>
+
+<body>
+    <!--Divs ajustadas com GRID-->
+    <div class="tela">
+        <div class="imagem">
+            <h2>Stop!!!!</h2>
+            <img src="./assecs/img/angryimg_1665952729819.png" alt="">
+            
+            
+        </div>
+<!--Pontuação e botões-->
+        <div class="ponto" >
+                <h2 id="contador"> "Sorteio" </h2>
+                <button onclick="sorteio()">sorteia</button><br>
+                <input style="width:100px;margin-top: 3%;" type="text" id="sorteado" placeholder="Sorteado"><br>
+                <button onclick="sorteado()">Sorteado</button>
+                <h2>Pontos</h2>
+                <label for="" id="pontos">x</label><br>
+                <button onclick="gravaepontos()">Grava Ponto</button>
+                <button onclick="tiraponto()">Tira Ponto</button>
+                                
+        </div>
+<!--Divs para inserir os textos-->
+        <div class="um">
+            <h4>Nome</h4>
+            <input for="" placeholder="Nome" id="nometext"></label>
+
+            <h4>Lugar</h4>
+            <input for="" placeholder="Lugar" id="lugartext"></label>
+
+            <h4>Esporte</h4>
+            <input for="" placeholder="Esporte" id="esportetext"></label>
+            
+        </div>
+        <div class="dois">
+            <h4>Animal</h4>
+            <input for="" placeholder="Animal" id="animaltext"></label>
+
+
+            <h4>Cor</h4>
+            <input for="" placeholder="Cor" id="cortext"></label>
+
+
+            <h4>Alimento</h4>
+            <input for="" placeholder="Alimento" id="alimtext"></label>
+           
+        </div>
+        <div class="tres">
+            <h4>Filme</h4>
+            <input for="" placeholder=" Desenho" id="filmetext"></label>
+
+            <h4>Jogo</h4>
+            <input for="" placeholder="Jogo" id="jogotext"></label>
+
+
+            <h4>Objeto</h4>
+            <input for="" placeholder="Objeto" id="objtext"></label>
+
+            
+        </div>
+<!--lista de resultados-->
+        <div class="result">
+            <li for="" id="resnome">nome</li>
+            <li for="" id="reslugar">lugar</li>
+            <li for="" id="resesport">esporte</li>
+            <li for="" id="resulanimal">Animal</li>
+            <li for="" id="resulcor">Cor</li>
+            <li for="" id="resulalim">Comida</li>
+            <li for="" id="resulfilme">Desenho</li>
+            <li for="" id="resuljogo">Jogo</li>
+            <li for="" id="resulobj">Objeto</li>
+
+        </div>
+
+    </div>
+<!--Link arquivo Javascript-->
+    <script src="./assecs/js/config.js"></script>
+</body>
+
+</html>
