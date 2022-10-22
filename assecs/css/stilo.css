@@ -125,27 +125,33 @@ button {
 }
 .um{
     grid-area: um;
-    background-color: aqua;
     margin-top: 2%;
     text-align: center;
     padding: 3%;
+    background-image: linear-gradient(to right top, #d16ba5, 
+    #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, 
+    #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 
 }
 
 .dois{
     grid-area: dois;
-    background-color: tomato;
     text-align: center;
     padding: 3%;
     margin-top: 2%;
+    background-image: linear-gradient(to right top, #5350ec, #0080ff,
+     #009ef9, #00b6df, #00c8c5, #00d1b6, #39d99f, #67df82,
+      #80e174, #97e365, #afe457, #c6e449);
 }
 
 .tres{
     grid-area: tres;
-    background-color: steelblue;
     text-align: center;
     padding: 3%;
     margin-top: 2%;
+    background-image: linear-gradient(to bottom, #eeeefa,
+     #d9e4fb, #bbddfa, #95d7f3, #6cd1e4, #41cbca, #2fc2a6,
+      #44b77b, #6da53a, #958c00, #ba6800, #d92505);
     
 }
 /* Inicios de mediaquery */
